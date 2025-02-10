@@ -21,3 +21,4 @@ docker-compose.yml
 *.tfstate
 *.tfstate.backup
 .terraform/
+.terraform.*
