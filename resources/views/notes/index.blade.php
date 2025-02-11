@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="card mt-5">
-    <h2 class="card-header">{{ config('app.name') }}</h2>
+    <h2 class="card-header">Hostname: {{ getenv('HOSTNAME') }}</h2>
     <div class="card-body">
 
         @if(session('success'))
