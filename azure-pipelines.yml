@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  local:
+  name: 'local'
 
 steps:
 
