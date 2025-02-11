@@ -17,4 +17,4 @@ steps:
     repository: 'joaquinvargascr/notes-app-k8s'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: 'joaquinvargascr/notes-app-k8s:v-$(Build.BuildId)'
+    tags: 'v-$(Build.BuildId)'
